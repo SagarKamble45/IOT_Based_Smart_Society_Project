@@ -8,8 +8,8 @@
 #include <EEPROM.h>
 
 char AUTH[] = "-----------------"; //Auth code sent via Email
-char WIFI_SSID[] = "M.Ansar"; //Wifi name
-char WIFI_PASS[] = "78612345";  //Wifi Password
+char WIFI_SSID[] = ""; //Wifi name
+char WIFI_PASS[] = "";  //Wifi Password
 
 // define the GPIO connected with Relays and switches
 #define Relay1  D0 //GPIO 16
